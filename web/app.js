@@ -116,7 +116,12 @@ async function initialize() {
     renderApp();
     if (["profitability", "pnl", "stock"].includes(state.page)) loadInsightPage(state.page);
   } catch (error) {
-    appRoot.innerHTML = `<main class="offline"><div class="offline-mark">${icon("cup", 28)}</div><p class="eyebrow">PREP CAFE</p><h1>로컬 앱 서버에 연결할 수 없어요</h1><p>프로젝트 폴더에서 <code>python3 app.py</code>를 실행한 뒤 다시 열어 주세요.</p></main>`;
+    const localHost = ["localhost", "127.0.0.1"].includes(location.hostname);
+    const title = localHost ? "로컬 앱 서버에 연결할 수 없어요" : "운영 API에 연결할 수 없어요";
+    const guidance = localHost
+      ? `프로젝트 폴더에서 <code>python3 app.py</code>를 실행한 뒤 다시 열어 주세요.`
+      : "이 배포에는 운영 API와 영구 데이터베이스 연결이 필요합니다. 현재 Vercel 프로젝트에 운영 API가 배포되어 있는지 확인해 주세요.";
+    appRoot.innerHTML = `<main class="offline"><div class="offline-mark">${icon("cup", 28)}</div><p class="eyebrow">PREP CAFE</p><h1>${title}</h1><p>${guidance}</p></main>`;
   }
 }
 
