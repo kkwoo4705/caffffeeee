@@ -1,0 +1,512 @@
+{
+  "source": "가상 매장 프렙 카페 샘플 — 선택 목록 참고용",
+  "channels": [
+    "매장",
+    "포장"
+  ],
+  "menus": [
+    {
+      "id": "M01",
+      "name": "아메리카노",
+      "price": 4000
+    },
+    {
+      "id": "M02",
+      "name": "카페라떼",
+      "price": 4800
+    },
+    {
+      "id": "M03",
+      "name": "바닐라라떼",
+      "price": 5300
+    },
+    {
+      "id": "M04",
+      "name": "초콜릿라떼",
+      "price": 5500
+    },
+    {
+      "id": "M05",
+      "name": "말차라떼",
+      "price": 5800
+    },
+    {
+      "id": "M06",
+      "name": "레몬에이드",
+      "price": 5500
+    },
+    {
+      "id": "M07",
+      "name": "크루아상",
+      "price": 3800
+    },
+    {
+      "id": "M08",
+      "name": "치즈케이크",
+      "price": 6500
+    }
+  ],
+  "materials": [
+    {
+      "id": "I01",
+      "name": "원두",
+      "unit": "g",
+      "packQuantity": 1000,
+      "basePackPrice": 23000,
+      "leadDays": 2,
+      "safetyDays": 2,
+      "supplierId": "V01",
+      "packaging": false,
+      "priceHistory": [
+        {
+          "effectiveDate": "2025-07-01",
+          "packPrice": 23000,
+          "packQuantity": 1000
+        },
+        {
+          "effectiveDate": "2026-01-01",
+          "packPrice": 23920,
+          "packQuantity": 1000
+        },
+        {
+          "effectiveDate": "2026-09-01",
+          "packPrice": 24840,
+          "packQuantity": 1000
+        }
+      ]
+    },
+    {
+      "id": "I02",
+      "name": "우유",
+      "unit": "ml",
+      "packQuantity": 1000,
+      "basePackPrice": 2900,
+      "leadDays": 1,
+      "safetyDays": 1,
+      "supplierId": "V02",
+      "packaging": false,
+      "priceHistory": [
+        {
+          "effectiveDate": "2025-07-01",
+          "packPrice": 2900,
+          "packQuantity": 1000
+        },
+        {
+          "effectiveDate": "2026-01-01",
+          "packPrice": 3016,
+          "packQuantity": 1000
+        },
+        {
+          "effectiveDate": "2026-09-01",
+          "packPrice": 3132,
+          "packQuantity": 1000
+        }
+      ]
+    },
+    {
+      "id": "I03",
+      "name": "바닐라시럽",
+      "unit": "ml",
+      "packQuantity": 1000,
+      "basePackPrice": 12500,
+      "leadDays": 2,
+      "safetyDays": 2,
+      "supplierId": "V03",
+      "packaging": false,
+      "priceHistory": [
+        {
+          "effectiveDate": "2025-07-01",
+          "packPrice": 12500,
+          "packQuantity": 1000
+        },
+        {
+          "effectiveDate": "2026-01-01",
+          "packPrice": 13000,
+          "packQuantity": 1000
+        },
+        {
+          "effectiveDate": "2026-09-01",
+          "packPrice": 13000,
+          "packQuantity": 1000
+        }
+      ]
+    },
+    {
+      "id": "I04",
+      "name": "초콜릿소스",
+      "unit": "g",
+      "packQuantity": 1000,
+      "basePackPrice": 14500,
+      "leadDays": 2,
+      "safetyDays": 2,
+      "supplierId": "V01",
+      "packaging": false,
+      "priceHistory": [
+        {
+          "effectiveDate": "2025-07-01",
+          "packPrice": 14500,
+          "packQuantity": 1000
+        },
+        {
+          "effectiveDate": "2026-01-01",
+          "packPrice": 15080,
+          "packQuantity": 1000
+        },
+        {
+          "effectiveDate": "2026-09-01",
+          "packPrice": 15080,
+          "packQuantity": 1000
+        }
+      ]
+    },
+    {
+      "id": "I05",
+      "name": "말차파우더",
+      "unit": "g",
+      "packQuantity": 500,
+      "basePackPrice": 23000,
+      "leadDays": 2,
+      "safetyDays": 2,
+      "supplierId": "V02",
+      "packaging": false,
+      "priceHistory": [
+        {
+          "effectiveDate": "2025-07-01",
+          "packPrice": 23000,
+          "packQuantity": 500
+        },
+        {
+          "effectiveDate": "2026-01-01",
+          "packPrice": 23920,
+          "packQuantity": 500
+        },
+        {
+          "effectiveDate": "2026-09-01",
+          "packPrice": 23920,
+          "packQuantity": 500
+        }
+      ]
+    },
+    {
+      "id": "I06",
+      "name": "레몬청",
+      "unit": "g",
+      "packQuantity": 1000,
+      "basePackPrice": 13000,
+      "leadDays": 2,
+      "safetyDays": 2,
+      "supplierId": "V03",
+      "packaging": false,
+      "priceHistory": [
+        {
+          "effectiveDate": "2025-07-01",
+          "packPrice": 13000,
+          "packQuantity": 1000
+        },
+        {
+          "effectiveDate": "2026-01-01",
+          "packPrice": 13520,
+          "packQuantity": 1000
+        },
+        {
+          "effectiveDate": "2026-09-01",
+          "packPrice": 13520,
+          "packQuantity": 1000
+        }
+      ]
+    },
+    {
+      "id": "I07",
+      "name": "탄산수",
+      "unit": "ml",
+      "packQuantity": 1000,
+      "basePackPrice": 1400,
+      "leadDays": 1,
+      "safetyDays": 1,
+      "supplierId": "V01",
+      "packaging": false,
+      "priceHistory": [
+        {
+          "effectiveDate": "2025-07-01",
+          "packPrice": 1400,
+          "packQuantity": 1000
+        },
+        {
+          "effectiveDate": "2026-01-01",
+          "packPrice": 1456,
+          "packQuantity": 1000
+        },
+        {
+          "effectiveDate": "2026-09-01",
+          "packPrice": 1456,
+          "packQuantity": 1000
+        }
+      ]
+    },
+    {
+      "id": "I08",
+      "name": "크루아상(냉동 완제품)",
+      "unit": "개",
+      "packQuantity": 10,
+      "basePackPrice": 17000,
+      "leadDays": 1,
+      "safetyDays": 1,
+      "supplierId": "V02",
+      "packaging": false,
+      "priceHistory": [
+        {
+          "effectiveDate": "2025-07-01",
+          "packPrice": 17000,
+          "packQuantity": 10
+        },
+        {
+          "effectiveDate": "2026-01-01",
+          "packPrice": 17680,
+          "packQuantity": 10
+        },
+        {
+          "effectiveDate": "2026-09-01",
+          "packPrice": 17680,
+          "packQuantity": 10
+        }
+      ]
+    },
+    {
+      "id": "I09",
+      "name": "치즈케이크(냉동 조각)",
+      "unit": "개",
+      "packQuantity": 8,
+      "basePackPrice": 23200,
+      "leadDays": 1,
+      "safetyDays": 1,
+      "supplierId": "V03",
+      "packaging": false,
+      "priceHistory": [
+        {
+          "effectiveDate": "2025-07-01",
+          "packPrice": 23200,
+          "packQuantity": 8
+        },
+        {
+          "effectiveDate": "2026-01-01",
+          "packPrice": 24128,
+          "packQuantity": 8
+        },
+        {
+          "effectiveDate": "2026-09-01",
+          "packPrice": 24128,
+          "packQuantity": 8
+        }
+      ]
+    },
+    {
+      "id": "I10",
+      "name": "포장컵세트",
+      "unit": "개",
+      "packQuantity": 100,
+      "basePackPrice": 16000,
+      "leadDays": 2,
+      "safetyDays": 2,
+      "supplierId": "V01",
+      "packaging": true,
+      "priceHistory": [
+        {
+          "effectiveDate": "2025-07-01",
+          "packPrice": 16000,
+          "packQuantity": 100
+        },
+        {
+          "effectiveDate": "2026-01-01",
+          "packPrice": 16640,
+          "packQuantity": 100
+        },
+        {
+          "effectiveDate": "2026-09-01",
+          "packPrice": 16640,
+          "packQuantity": 100
+        }
+      ]
+    },
+    {
+      "id": "I11",
+      "name": "디저트포장세트",
+      "unit": "개",
+      "packQuantity": 50,
+      "basePackPrice": 14000,
+      "leadDays": 2,
+      "safetyDays": 2,
+      "supplierId": "V02",
+      "packaging": true,
+      "priceHistory": [
+        {
+          "effectiveDate": "2025-07-01",
+          "packPrice": 14000,
+          "packQuantity": 50
+        },
+        {
+          "effectiveDate": "2026-01-01",
+          "packPrice": 14560,
+          "packQuantity": 50
+        },
+        {
+          "effectiveDate": "2026-09-01",
+          "packPrice": 14560,
+          "packQuantity": 50
+        }
+      ]
+    }
+  ],
+  "expense_categories": [
+    "관리비",
+    "광고비",
+    "사업주 부담 보험료",
+    "소모품·청소비",
+    "수도광열비",
+    "인건비",
+    "임차료",
+    "통신·소프트웨어"
+  ],
+  "recipes": [
+    {
+      "menuId": "M01",
+      "materialId": "I01",
+      "quantity": 20,
+      "unit": "g"
+    },
+    {
+      "menuId": "M02",
+      "materialId": "I01",
+      "quantity": 20,
+      "unit": "g"
+    },
+    {
+      "menuId": "M02",
+      "materialId": "I02",
+      "quantity": 200,
+      "unit": "ml"
+    },
+    {
+      "menuId": "M03",
+      "materialId": "I01",
+      "quantity": 20,
+      "unit": "g"
+    },
+    {
+      "menuId": "M03",
+      "materialId": "I02",
+      "quantity": 180,
+      "unit": "ml"
+    },
+    {
+      "menuId": "M03",
+      "materialId": "I03",
+      "quantity": 20,
+      "unit": "ml"
+    },
+    {
+      "menuId": "M04",
+      "materialId": "I02",
+      "quantity": 200,
+      "unit": "ml"
+    },
+    {
+      "menuId": "M04",
+      "materialId": "I04",
+      "quantity": 35,
+      "unit": "g"
+    },
+    {
+      "menuId": "M05",
+      "materialId": "I02",
+      "quantity": 200,
+      "unit": "ml"
+    },
+    {
+      "menuId": "M05",
+      "materialId": "I05",
+      "quantity": 8,
+      "unit": "g"
+    },
+    {
+      "menuId": "M06",
+      "materialId": "I06",
+      "quantity": 60,
+      "unit": "g"
+    },
+    {
+      "menuId": "M06",
+      "materialId": "I07",
+      "quantity": 200,
+      "unit": "ml"
+    },
+    {
+      "menuId": "M07",
+      "materialId": "I08",
+      "quantity": 1,
+      "unit": "개"
+    },
+    {
+      "menuId": "M08",
+      "materialId": "I09",
+      "quantity": 1,
+      "unit": "개"
+    },
+    {
+      "menuId": "M01",
+      "materialId": "I10",
+      "quantity": 1,
+      "unit": "개",
+      "channelOnly": "포장"
+    },
+    {
+      "menuId": "M02",
+      "materialId": "I10",
+      "quantity": 1,
+      "unit": "개",
+      "channelOnly": "포장"
+    },
+    {
+      "menuId": "M03",
+      "materialId": "I10",
+      "quantity": 1,
+      "unit": "개",
+      "channelOnly": "포장"
+    },
+    {
+      "menuId": "M04",
+      "materialId": "I10",
+      "quantity": 1,
+      "unit": "개",
+      "channelOnly": "포장"
+    },
+    {
+      "menuId": "M05",
+      "materialId": "I10",
+      "quantity": 1,
+      "unit": "개",
+      "channelOnly": "포장"
+    },
+    {
+      "menuId": "M06",
+      "materialId": "I10",
+      "quantity": 1,
+      "unit": "개",
+      "channelOnly": "포장"
+    },
+    {
+      "menuId": "M07",
+      "materialId": "I11",
+      "quantity": 1,
+      "unit": "개",
+      "channelOnly": "포장"
+    },
+    {
+      "menuId": "M08",
+      "materialId": "I11",
+      "quantity": 1,
+      "unit": "개",
+      "channelOnly": "포장"
+    }
+  ],
+  "masterDataNote": "가상 샘플의 메뉴·재료·레시피·재료가격 기준정보만 계산 참고용으로 사용합니다. 샘플 거래 내역은 등록하지 않습니다."
+}
